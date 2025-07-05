@@ -1,0 +1,18 @@
+{
+  "name": "qa-playwright-tests",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test",
+    "test:auth": "playwright test 'API Tests/auth.test.js'",
+    "test:create": "playwright test 'API Tests/create_booking.test.js'",
+    "test:delete": "playwright test 'API Tests/delete_booking.test.js'",
+    "test:read": "playwright test 'API Tests/read_booking.test.js'",
+    "test:update": "playwright test 'API Tests/update_booking.test.js'",
+    "test:vinted:navbar": "playwright test 'Vinted Tests/navbar.test.js'",
+    "test:vinted:search": "playwright test 'Vinted Tests/hp_search.test.js'",
+    "test:vinted:mobile": "playwright test 'Vinted Tests/filter_test-mobile.test.js'"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.53.2"
+  }
+}
