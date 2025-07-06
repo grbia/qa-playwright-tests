@@ -6,7 +6,7 @@ This repository contains automated tests written using [Playwright](https://play
 - **API Tests** for the Restful Booker API
 - **UI Tests** for Vinted.com (desktop and mobile views)
 
-## 📦 Project Structure
+## Project Structure
 ```
 .
 ├── API Tests
@@ -24,7 +24,7 @@ This repository contains automated tests written using [Playwright](https://play
 └── README.md
 ```
 
-## 🚀 Running Tests
+## Running Tests
 
 ### Install dependencies
 ```bash
@@ -49,6 +49,6 @@ npm run test
 | Vinted Help Center Search     | `npm run test:vinted:search`             |
 | Vinted Mobile Filter Test     | `npm run test:vinted:mobile`             |
 
-## 🛠 Tools & Frameworks
+## Tools & Frameworks
 - [Playwright](https://playwright.dev/) for browser automation
 - Node.js for running scripts
